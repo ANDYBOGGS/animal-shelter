@@ -1,21 +1,35 @@
-.animal {
-  color: red;
-}
-h1 {
-  font-size: 25;
-  color: red;
-  text-align: center;
-  font-family: sans-serif;
+
+  .animal {
+    color: red;
+  }
+
+  h1 {
+    font-size: 25;
+    color: red;
+    text-align: center;
+    font-family: sans-serif;
+  }
+
+  .pet {
+    color: green;
+  }
+
+  p {
+    color:blue;
+  }
+
+  .animal p {
+    color:black;
+  }
+
+@media screen and (max-width: 500px) and (min-width: 300px) {
+  body {
+    background-color: red;
+  }
 }
 
-.pet {
-  color: green;
-}
-
-p {
-  color:blue;
-}
-
-.animal p {
-  color:black;
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+  body {
+    background-color: yellow;
+  }
 }
