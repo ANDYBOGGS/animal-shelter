@@ -1,0 +1,21 @@
+.animal {
+  color: red;
+}
+h1 {
+  font-size: 25;
+  color: red;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.pet {
+  color: green;
+}
+
+p {
+  color:blue;
+}
+
+.animal p {
+  color:black;
+}
